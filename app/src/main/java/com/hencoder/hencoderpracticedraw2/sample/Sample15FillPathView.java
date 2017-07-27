@@ -29,6 +29,8 @@ public class Sample15FillPathView extends View {
     }
 
     {
+        setLayerType(LAYER_TYPE_SOFTWARE, null);
+
         path.moveTo(50, 100);
         path.rLineTo(50, 100);
         path.rLineTo(80, -150);
